@@ -65,7 +65,7 @@ if __name__ == "__main__":
     plt.axis("off")
 
     plt.subplot(1, 2, 2)
-    plt.title("Imagem Erudita ")
+    plt.title("Imagem Erodida")
     plt.imshow(eroded_img, cmap="gray")
     plt.axis("off")
 
