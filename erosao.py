@@ -1,7 +1,6 @@
 from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
-import cv2
 
 def read_image(path):
     img = Image.open(path).convert('L')
