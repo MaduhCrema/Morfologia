@@ -16,7 +16,7 @@ def erosion(binary_image, structuring_element):
     img_height, img_width = binary_image.shape
     se_height, se_width = structuring_element.shape
 
-    # deslocamento do operado
+    # deslocamento do operador
     se_center_y, se_center_x = se_height // 2, se_width // 2
 
     # matriz
