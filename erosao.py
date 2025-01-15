@@ -36,7 +36,7 @@ def save_image(binary_image, output_path):
     img = Image.fromarray((binary_image * 255).astype(np.uint8))
     img.save(output_path)
 
-# Exemplo de uso
+
 if __name__ == "__main__":
     input_path = "./imgs_erosao/bolinhas.png"
     output_path = "imagem_erodida.png"
