@@ -18,7 +18,7 @@ def dilatacao(image, elemento_estruturante):
 
     return saida
 
-caminho_imagem = "C:\\Users\\gabxl\\OneDrive\\Imagens\\Capturas de tela\\6.png"  
+caminho_imagem = "C:\Users\marco\Downloads\trabpid\Morfologia\imgs_erosao\bolinhas.png"  
 cor_imagem = cv2.imread(caminho_imagem)  
 image = cv2.cvtColor(cor_imagem, cv2.COLOR_BGR2GRAY)  
 _, imagem_binaria = cv2.threshold(image, 200, 255, cv2.THRESH_BINARY)

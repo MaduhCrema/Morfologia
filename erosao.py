@@ -38,8 +38,8 @@ def save_image(binary_image, output_path):
 
 
 if __name__ == "__main__":
-    input_path = "./imgs_erosao/bolinhas.png"
-    output_path = "imagem_erodida.png"
+    input_path = "./imgs_erosao/cerebro.jpg"
+    output_path = "imagem_erodida.jpg"
 
     binary_img = read_image(input_path)
 
