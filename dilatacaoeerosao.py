@@ -85,7 +85,7 @@ def save_image(binary_image, output_path):
     img.save(output_path)
 
 if __name__ == "__main__":
-    input_path = "./bolinhas.png"
+    input_path = "./bolinhas.png" #  coloque o caminho conforme os diretórios do seu computador
     output_path_eroded = "imagem_erodida.png"
     output_path_dilated = "imagem_dilatada.png"
 
